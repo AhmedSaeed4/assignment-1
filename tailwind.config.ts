@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,8 +6,40 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
+    extend: { 
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideDown: {
+          '0%': { transform: 'translateY(-25%)', opacity: '0' }, // Starting from above and hidden
+          '100%': { transform: 'translateY(0)', opacity: '1' },  // Ending in the original position with full opacity
+        },
+        slideright: {
+          '0%': { transform: 'translatex(-25%)', opacity: '0' }, // Starting from above and hidden
+          '100%': { transform: 'translatex(0)', opacity: '1' },  // Ending in the original position with full opacity
+        },
+        slideleft: {
+          '0%': { transform: 'translatex(25%)', opacity: '0' }, // Starting from above and hidden
+          '100%': { transform: 'translatex(0)', opacity: '1' },  // Ending in the original position with full opacity
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 3s ease-out',
+        slideDown: 'slideDown 1s ease-out',
+        slideright: 'slideright 1s ease-out',
+        slideleft: 'slideleft 1.1s ease-out'
+      },
+      
+      backgroundImage:{
+        bannerImg:"url('/comp 10.png')"
+      },
+      
+      colors: { 
+        ryzen: {
+          900: "#D4CBBF",
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
@@ -16,4 +47,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
