@@ -1,5 +1,4 @@
-import Image from "next/image"
-import ahmed from "./Comp 30.png"
+
 export default function Home() {
   return (
     <div className="grid grid-cols-12 grid-rows-12 gap-5">
