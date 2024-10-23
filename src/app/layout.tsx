@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bannerImg bg-cover bg-top `} style={{
           
           
-          backgroundPosition: 'center calc(20% - 200px)', // Move the image up a bit (adjust value as needed)
+          backgroundPosition: 'center calc(20% - 200px)', 
           
         }}
       ><NavBar />

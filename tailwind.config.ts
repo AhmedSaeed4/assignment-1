@@ -13,16 +13,16 @@ const config: Config = {
           '100%': { opacity: '1' },
         },
         slideDown: {
-          '0%': { transform: 'translateY(-25%)', opacity: '0' }, // Starting from above and hidden
-          '100%': { transform: 'translateY(0)', opacity: '1' },  // Ending in the original position with full opacity
+          '0%': { transform: 'translateY(-25%)', opacity: '0' }, 
+          '100%': { transform: 'translateY(0)', opacity: '1' },  
         },
         slideright: {
-          '0%': { transform: 'translatex(-25%)', opacity: '0' }, // Starting from above and hidden
-          '100%': { transform: 'translatex(0)', opacity: '1' },  // Ending in the original position with full opacity
+          '0%': { transform: 'translatex(-25%)', opacity: '0' },
+          '100%': { transform: 'translatex(0)', opacity: '1' },  
         },
         slideleft: {
-          '0%': { transform: 'translatex(25%)', opacity: '0' }, // Starting from above and hidden
-          '100%': { transform: 'translatex(0)', opacity: '1' },  // Ending in the original position with full opacity
+          '0%': { transform: 'translatex(25%)', opacity: '0' }, 
+          '100%': { transform: 'translatex(0)', opacity: '1' }, 
         },
       },
       animation: {

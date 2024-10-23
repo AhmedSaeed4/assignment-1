@@ -1,9 +1,9 @@
 
 import Image from "next/image"
 import ahmed from "../Comp 30.png"
-import { promises } from "dns";
+
 export default async function Contact() {
-    await new Promise((resolve, reject)=>{
+    await new Promise((resolve)=>{
         setTimeout(resolve, 5000);
 
     })
