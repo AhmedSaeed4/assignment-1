@@ -2,7 +2,7 @@
 import Image from "next/image"
 import ahmed from "../Comp 30.png"
 export default function Home() {
-   throw new Error ("error")
+  
   return (
     <div className="grid grid-cols-12 grid-rows-12 gap-5">
       <div className="inline-flex items-center p-5 row-start-3 row-end-7 col-start-8 col-end-12 h-25 text-white/65 animate-slideDown font-bold text-6xl">One small <br /> step from <br />man
