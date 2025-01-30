@@ -16,7 +16,8 @@ export default async function Contact() {
             <div className="inline-flex items-center p-5 row-start-1 row-end-3 col-start-2 col-end-4 h-25 text-white/65 animate-slideright font-bold text-6xl">
                 <Image src={ahmed} alt="Description of Mizu" className="object-cover rounded-3xl" />
             </div>
-            <div className="row-start-3 row-end-7 col-start-2 col-end-8 text-ryzen-900  font-bold">
+       
+            <div className="row-start-3 row-end-7 col-start-2 col-end-8 backdrop:shadow-lg bg-black/60 p-4 rounded-xl  text-ryzen-900  font-bold">
                 <h1 className="text-4xl">About Me</h1>
                 <p>Welcome to my world of creativity and innovation! Im a passionate Video Editor, a skilled 3D Artist, and now venturing into the exciting realm of Full Stack Development. With a keen eye for detail and a drive to push boundaries, I strive to bring visions to life through my diverse skill set.</p>
                 
