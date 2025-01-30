@@ -8,7 +8,7 @@ export default function Home() {
       </div>
       <div className="bg-ryzen-850  border-solid border-ryzen-900/40 border-2 inline-flex items-center p-5 row-start-7 col-start-8 col-end-9 row-end-8 h-25 text-white font-bold backdrop-blur-xl bg-gradient-to-r from-green-200/40 to-green-200/10 animate-slideright">VFX Artist</div>
       <div className="bg-ryzen-850  border-solid border-ryzen-900/40 border-2 inline-flex items-center p-5 row-start-7 col-start-9 row-end-8 col-end-10 text-white font-bold backdrop-blur-xl bg-gradient-to-r from-ryzen-900/20 to-ryzen-900/10 animate-slideright">3D Artist</div>
-      <div className="bg-ryzen-850  border-solid border-ryzen-900/40 border-2 inline-flex items-center p-5 row-start-7 col-start-10 row-end-8 col-end-12  text-white font-bold backdrop-blur-xl bg-gradient-to-r from-ryzen-900/20 to-ryzen-900/10 animate-slideleft">Motion Designer</div>
+      <div className="bg-ryzen-850  border-solid border-ryzen-900/40 border-2 inline-flex items-center p-5 row-start-7 col-start-10 row-end-8 col-end-12  text-white font-bold backdrop-blur-xl bg-gradient-to-r from-ryzen-900/20 to-ryzen-900/10 animate-slideleft">Full Stack Development</div>
       <div className="bg-ryzen-850   border-hidden border-2 inline-flex items-center p-5 row-start-1 col-start-1 row-end-2 col-end-2 text-white font-bold"></div>
       <div className="inline-flex items-center p-5 row-start-1 row-end-3 col-start-2 col-end-4 h-25  text-white/65 animate-slideright font-bold text-6xl"><Image src={ahmed} alt="Description of Mizu" className="object-cover rounded-3xl" /> </div>
       

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./component/NavBar";
+import Image from "next/image"
+import ahmed from "../app/assets/Comp 10.png"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,13 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bannerImg bg-cover bg-top `} style={{
-          
-          
-          backgroundPosition: 'center calc(20% - 200px)', 
-          
-        }}
-      ><NavBar />
+        className={`${geistSans.variable} ${geistMono.variable} antialiased  h-full relative `} 
+        
+      ><Image src={ahmed} alt="Description of Mizu" className="object-cover h-screen -z-10" layout="fill" objectFit="cover"/><NavBar /> 
         {children}
       </body>
     </html>
